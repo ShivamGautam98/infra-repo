@@ -1,0 +1,39 @@
+# Java and Maven specific files
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs and temp files
+*.log
+*.tmp
+hs_err_pid*
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+
+# Eclipse files
+.project
+.classpath
+
+# VS Code files
+.vscode/
+
+# Maven specific
+.mvn/
+.mvn/wrapper/maven-wrapper.jar
+
+# Terraform specific
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+*.tfvars
+terraform.tfstate.d/
+
+# Credential files
+.env
+*.key
+*.pem
