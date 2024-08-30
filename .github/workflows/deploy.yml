@@ -3,7 +3,7 @@ name: Terraform Deploy via Terraform Cloud
 on:
   push:
     branches:
-      - main
+      - '*'
 
 jobs:
   terraform:
